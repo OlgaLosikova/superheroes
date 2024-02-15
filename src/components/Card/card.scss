@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+      padding-top: 10px;
+    }
+    .card-text {
+      min-height: 220px;
+    }
+  }
+  
+}
