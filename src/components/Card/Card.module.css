@@ -6,17 +6,15 @@
   justify-content: space-between;
   padding: 10px;
   box-sizing: border-box;
-
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    img {
-      width: 100%;
-      padding-top: 10px;
-    }
-    .card-text {
-      min-height: 220px;
-    }
-  }
-  
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  width: 100%;
+  padding-top: 10px;
+}
+.text {
+  min-height: 250px;
 }

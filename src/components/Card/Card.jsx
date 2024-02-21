@@ -1,14 +1,15 @@
 import React from "react";
-import StarRating from "../StarRating/StarRating"
+import StarRating from "../StarRating/StarRating";
+import styles from "./Card.module.css";
 
 const Card = (props) => {
   const {title, description, imgLink, alt} = props;
   return (
-    <div className="card">
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p className="card-text">{description}</p>
-        <img src={imgLink} alt={alt} />
+    <div className={styles.card}>
+      <div className={styles.body}>
+        <h2>{title}</h2>
+        <p className={styles.text}>{description}</p>
+        <img className={styles.img} src={imgLink} alt={alt} />
       </div>
       <StarRating />
     </div>
